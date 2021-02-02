@@ -7,7 +7,7 @@ The first step to using any software package is getting it properly installed.
 $ python -m pip install ssh-mitm
 --------------------------------
 
-To install SSH-MITM, simply run this simple command in your terminal of choice:
+To install SSH-MITM, simply run this command in your terminal of choice:
 
 .. code-block:: bash
     :linenos:

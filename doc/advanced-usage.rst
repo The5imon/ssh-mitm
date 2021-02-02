@@ -3,7 +3,7 @@ Advanced usage
 
 SSH-MITM proxy server is capable of advanced man in the middle attacks and
 can be used in scenarios, where the remote host is not known or a single
-remote host is not sufficient or public key authentication is usded.
+remote host is not sufficient or public key authentication is used.
 
 Public key authentication
 -------------------------
@@ -31,7 +31,7 @@ it for remote authentication. By using this feature, a SSH-MITM proxy server is 
 to do a full man in the middle attack.
 
 Since OpenSSH 8.4 the commands scp and sftp are supporting agent forwarding.
-Older releases or other implementations, does not support agent forwarding for
+Older releases or other implementations do not support agent forwarding for
 file transfers.
 
 Using agent forwarding, SSH-MITM proxy server must be started with ``--request-agent``.
@@ -136,7 +136,7 @@ destination address.
     To intercept the traffic, a static route can be configured on a router.
     An alternative to a static route is using arp spoofing.
 
-    Router configuration and arp spoofing are not part of this documentation.
+    Router configuration and arp spoofing are out of scope of this documentation.
 
 
 Setting up firewall rules
@@ -158,7 +158,7 @@ To setup SSH-MITM in transparent mode, the system has to be prepared.
 
 .. warning::
 
-    Additional firewall rules may be necessary to maintain device management capabilities over ssh
+    Additional firewall rules may be necessary to maintain device management capabilities over ssh.
 
 
 .. note::
